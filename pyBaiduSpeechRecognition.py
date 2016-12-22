@@ -9,8 +9,8 @@ import sys
 
 asr_server = 'http://vop.baidu.com/server_api'
 baidu_oauth_url = 'https://openapi.baidu.com/oauth/2.0/token/'
-client_id = 'xxx'
-client_secret = 'xxx'
+client_id = '9112134'
+client_secret = '0c0d4c6e97b264d1ec833048500fa68c'
 access_token = baidu_oauth.get_baidu_access_token(baidu_oauth_url, client_id, client_secret)
 mac_address=uuid.UUID(int=uuid.getnode()).hex[-12:]
 
